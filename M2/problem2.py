@@ -9,7 +9,9 @@ def process_array(num, arr):
     print(arr)
     total = 0.00
     # TODO add necessary code here for sum; every number must have two decimal places shown
-    print("\nThe total is {}:\n".format(total))
+    total=round(sum(arr),2)
+
+    print("\nThe total is {:.2f}:\n".format(total))
 
 
 print("Problem 2")
